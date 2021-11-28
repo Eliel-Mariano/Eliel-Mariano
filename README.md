@@ -1,4 +1,4 @@
-- 👋 👋Olá, sou @ Eliel-Mariano
+- 👋 Olá, sou @Eliel-Mariano
 - Graduado em Engenharia Civil pela Universidade Federal de Juiz de Fora.
 - Dev Full Stack pela Labenu.
 📫 eliel.mariano@engenharia.ufjf.br , +55 (32) 9 9128 0631
