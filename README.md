@@ -29,8 +29,8 @@
 <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="80" height="80"/> </a>
 </p>
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=eliel-mariano&show_icons=true&theme=dark&locale=pt-br" alt="eliel-mariano" /></p>
+<p>&nbsp;<img align="left"  src="https://github-readme-stats.vercel.app/api?username=eliel-mariano&show_icons=true&theme=dark&locale=pt-br" alt="eliel-mariano" /></p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=eliel-mariano&show_icons=true&theme=dark&locale=pt-br&layout=compact" alt="eliel-mariano" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliel-mariano&show_icons=true&layout=compact&locale=pt-br&langs_count=7&theme=dark"/></p>
 
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=eliel-mariano&theme=dark&" alt="eliel-mariano" /></p>
