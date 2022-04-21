@@ -1,0 +1,44 @@
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+    "name": "eliel",
+    "email": "teste",
+    "password": "123"
+}
+
+###
+GET http://localhost:3003/users
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name": "gasolina",
+    "price": 8.50,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsGnQLAfCZr1OrLbva--2-NGUYJ2a6xnPu9w&usqp=CAU"
+}
+
+###
+
+GET http://localhost:3003/products
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+    "user_id": "1650129399899", 
+    "product_id": "1650132525511", 
+    "quantity": 30
+}
+
+###
+
+GET http://localhost:3003/users/1650120608776/purchases
+Content-Type: application/json
