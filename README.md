@@ -14,7 +14,7 @@
 <a href="https://wa.me/5532991280631?text=Olá,%20seja%20bem%20vindo%20ao%20meu%20WhatsApp!%20Como%20posso%20ajudá-lo?" target="_blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="elielmariano" target="_blank"/></a>
 </p>
 
-<h3 align="left">Linguagens e Ferramentas:</h3>
+<h3 align="left">Linguagens e Tecnologias:</h3>
 <p align="left">
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/> </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/> </a>
