@@ -1,5 +1,5 @@
 <h1 align="center">Olá! Eu sou o Eliel Mariano</h1>
-<h3 align="center">Atualmente sou Desenvolvedor Web Front End, em formação Full Stack pelo Bootcamp da Labenu, com mais de 1000 horas de programação. Durante essa formação estou desenvolvendo projetos práticos individuais e em grupos, utilizando React, CSS, JavaScript, TypeScript, HTML, integrados com APIs, SQL, Express.</h3>
+<h3 align="center">Atualmente sou Desenvolvedor Web Front End, em formação Full Stack pelo Bootcamp da Labenu, com mais de 1000 horas de programação. Durante essa formação estou desenvolvendo projetos práticos individuais e em grupos, utilizando React, CSS, JavaScript, TypeScript, HTML, integrados com APIs, SQL, Express, Jest.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eliel-mariano&label=Profile%20views&color=0e75b6&style=flat" alt="eliel-mariano" /> </p>
 
