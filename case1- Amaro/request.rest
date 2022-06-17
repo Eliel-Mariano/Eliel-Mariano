@@ -1,0 +1,23 @@
+POST http://localhost:3003/
+Content-Type: application/json
+
+{
+      "id": 7,
+      "name": "Casaco",
+      "tags": ["frio", "inverno", "chocolate quente"]
+}
+
+###
+
+GET http://localhost:3003/products?id=6
+Content-Type: application/json
+
+###
+
+GET http://localhost:3003/products?name=FEMININO
+Content-Type: application/json
+
+###
+
+GET http://localhost:3003/products?tag=metal
+Content-Type: application/json
