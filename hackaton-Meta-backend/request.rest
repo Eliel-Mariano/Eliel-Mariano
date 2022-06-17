@@ -1,0 +1,140 @@
+//cadastrar responsáveis
+POST http://localhost:3003/responsible/signup
+Content-Type: application/json
+
+{
+"name": "Resp fran2",
+"email": "teste@testea.com",
+"password": "123456",
+"role": "ADMIN",
+"access_key":"grupo1-meta-hackathon"
+}
+
+###
+//login responsáveis
+# @name login
+POST http://localhost:3003/responsible/login
+Content-Type: application/json
+
+{
+"email": "teste@teste.com",
+"password": "123456"
+}
+
+###
+//criar turma
+POST http://localhost:3003/team/create
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"team_name": "Turma eliel2"
+}
+
+###
+//criar leaguer
+POST http://localhost:3003/leaguer/create
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"photo_leaguer":"teste",
+"position":"intro",
+"hiring_model":"ctps",
+"name":"elicdvfel",
+"email":"elvfziel@eliel.com",
+"phase":"intro",
+"technologies":"react",
+"languages":"",
+"id_mentor":"",
+"id_manager":"",
+"id_admin":"",
+"name_class":"Turma eliel"
+}
+###
+//editar leaguer
+PUT http://localhost:3003/leaguer/edit/d5bec0e1-e958-492a-b002-27835156c67c
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"photo_leaguer":"teste1",
+"position":"intro1",
+"hiring_model":"ctps1",
+"created_at":"2022-05-31",
+"name":"eliel1",
+"email":"eliel@eliel.com1",
+"phase":"intro1",
+"technologies":"1",
+"languages":"portugues1",
+"id_mentor":"zdfvdsafsf",
+"id_manager":"",
+"id_admin":"",
+"name_class":"Turma eliel"
+}
+
+###
+//deletar leaguer
+DELETE http://localhost:3003/leaguer/delete/3b7eb92b-ea69-46c5-89c5-20721fd27488
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+
+###
+//editar role
+PUT http://localhost:3003/responsible/editRole/
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"id":"a67874da-4554-498d-be4e-ae679fd2da1d", 
+"role":"GESTOR"
+}
+
+###
+//ver todos responsáveis
+GET http://localhost:3003/responsible/getAll
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+
+###
+//iniciar avaliação de feedback e enviar email???
+POST http://localhost:3003/evaluation/iniciate/a691333f-c86f-405d-8c56-846d2f32f444/f7ea93ea-ebf8-424e-ad1c-04816542c34b
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"email_evaluators": "fsohf@eliel.com"
+}
+
+###
+//criar avaliação de feedback
+POST http://localhost:3003/evaluation/create
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
+
+{
+"leaguer_email": "dff@elsgiel.com",
+"email_creator_feedback": "flavia@email.com",
+"email_evaluator": "tesccte@teste2.com",
+"performance": 5,
+"quality_on_delivery": 5.5,
+"proactivity": 4,
+"commitment": 9,
+"team_work": 6,
+"skillset_growth": 10,
+"leadership": 5,
+"punctuality": 10,
+"work_under_pressure": 8,
+"participation": 7,
+"administrative_tasks": 6,
+"highlights_leaguer": "aoiuhuelifduiehfaliu",
+"comment": "lkajndscaçojo"
+}
+###
+
+//pegar o compilado das avaliações de um leaguer
+GET http://localhost:3003/compiled/get/de95e913-0207-47ac-bd9f-e0cc627914c4
+Content-Type: application/json
+Authorization: {{login.response.body.token}}
